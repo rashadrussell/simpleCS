@@ -1,12 +1,7 @@
 var LinkedList = function(val, next) {
 	
 	this.value = val;
-	if(!next) {
-		this.next = null;
-	} else {
-		this.next = next;
-	}
-
+	this.next = !next ? null : next;
 }
 
 LinkedList.prototype.length = function(){
