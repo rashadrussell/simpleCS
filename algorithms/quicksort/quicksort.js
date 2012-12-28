@@ -1,3 +1,8 @@
+/*
+ Best Case: O(n*logn)
+Worst Case: O(n^2)
+*/
+
 function quicksort(arr, lo, hi) {
 
     var index;

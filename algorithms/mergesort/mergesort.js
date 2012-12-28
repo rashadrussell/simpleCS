@@ -1,3 +1,7 @@
+/*
+ Best Case: O(n*logn)
+Worst Case: O(n*logn)
+*/
 function mergesort(arr) {
 
 	var size = arr.length;

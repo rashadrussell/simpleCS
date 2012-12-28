@@ -1,5 +1,8 @@
 /*
 	Use the Binary Search algorithm to find the index of a value. If value is not in arrya, return -1;
+	Binary Search operates best on a sorted array. 
+	 Best Case: O(1)
+	Worst Case: O(logn)
 */
 function binarysearch(arr, key, lo, hi) {
 
