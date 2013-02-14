@@ -1,6 +1,7 @@
 /*
  Best Case: O(n*logn)
 Worst Case: O(n^2)
+Reference: http://www.nczonline.net/blog/2012/11/27/computer-science-in-javascript-quicksort/
 */
 
 function quicksort(arr, lo, hi) {

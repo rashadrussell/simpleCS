@@ -1,6 +1,7 @@
 /*
  Best Case: O(n*logn)
 Worst Case: O(n*logn)
+Reference: http://www.nczonline.net/blog/2012/10/02/computer-science-and-javascript-merge-sort/
 */
 function mergesort(arr) {
 
